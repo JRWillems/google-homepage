@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+
+header {
+    font-size: small;
+    color: rgba(0,0,0,0.87);
+    padding-top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0,0,0,0;
+    padding: 0,0,0,0;
+}
+
+li {
+    float: left;
+    vertical-align: auto;
+    margin: 10px;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+.sign {
+    border-radius: 1,1,1,1;
+    background-color: #3b80f7;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#main {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.searchBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    width: 482px;
+    height: 39px;
+    border-top-color: rgba(0, 0, 0, 0.1);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.1);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.1);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    background-color: transparent;
+    margin: auto;
+} 
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}
+
+#searchIcon {
+    opacity: 0.4;
+    padding-top: 13px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+ #micIcon   {
+    opacity: 0.4;
+    padding-top: 13px;
+    padding-right: 10px;
+    font-size: 20px;
+ }
+
+ #appsIcon {
+    opacity: 0.4;
+    padding-top: 0px;
+    padding-right: 10px;
+    font-size: 30px;
+ }
+
+#searchbar {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    width: 427px;
+    height: 37px;
+    font-family: arial,sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-color: transparent;
+    border-top-width: medium;
+    border-right-color: transparent;
+    border-right-width: medium;
+    border-bottom-color: transparent;
+    border-bottom-width: medium;
+    border-left-color: transparent;
+    border-left-width: medium;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    background-color: transparent;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    outline: none;
+}
+
+#searchButtons {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin-top: 11px;
+    margin-right: 4px;
+    margin-bottom: 11px;
+    margin-left: 4px;
+    padding-top: 0px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.languages {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: xx-small;
+}
